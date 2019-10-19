@@ -7,8 +7,8 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "deploy": "gh-pages -d /docs/.vuepress/dist",
-    "deploy:build": "npm run build && npm run deploy"
+    "deploy:gh": "gh-pages -d /docs/.vuepress/dist",
+    "deploy": "npm run build && npm run deploy:gh"
   },
   "keywords": [],
   "author": "",

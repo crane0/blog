@@ -5,23 +5,28 @@ module.exports = {
     ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `./favicon.ico` }]
   ],
   description: 'Just playing around',
+  markdown: {
+    lineNumbers: true
+  },
   themeConfig: {
     nav: [
-      { text: '前端', link: '/guide/guide.md' },
-      { text: '数据库', link: '/test/test.md' },
-      { text: 'GitHub', link: 'https://github.com/crane0' }
+      { text: '前端', link: '/front/' },
+      { text: '数据库', link: '/database/' },
+      { text: '方法', link: '/way/' },
+      { text: 'GitHub', link: 'https://github.com/crane0/blog' }
     ],
     sidebar: {
-      '/guide/': [
-        '',
+      '/front/': [
         'guide',
-        'guide2',
       ],
 
-      '/test/': [
-        '',
-        'test',
-        'test2'
+      '/database/': [
+        'mysql',
+      ],
+
+      '/way/': [
+        '001阿里OSS+picGO的使用',
+        '002vuepress+评论的搭建',
       ],
 
       // fallback
@@ -31,7 +36,5 @@ module.exports = {
     },
     lastUpdated: '上次更新：',
   },
-  markdown: {
-    lineNumbers: true
-  },
+  
 }
