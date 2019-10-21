@@ -4,7 +4,7 @@ heroImage: /logo.gif
 heroText: 前端成长之路
 tagline: 人们都叫我疯子，艺术家都是疯子
 actionText: 开始阅读 →
-actionLink: /guide/
+actionLink: /front/
 features:
 - title: 前端成长
   details: 记录前端学习的点点滴滴，不要去想一鸣惊人，要勇于记录自己的每次成长。

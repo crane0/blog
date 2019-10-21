@@ -27,6 +27,7 @@ module.exports = {
       '/way/': [
         '001阿里OSS+picGO的使用',
         '002vuepress+评论的搭建',
+        '003函数防抖和节流',
       ],
 
       // fallback
