@@ -32,17 +32,6 @@ function renderValine(router) {
   })
 }
 
-// function createVisite() {
-//   let myspan = `<span id=${window.location.pathname} class="leancloud_visitors" data-flag-title="Your Article Title">
-//     <em class="post-meta-item-text">阅读量 </em>
-//     <i class="leancloud-visitors-count">1000000</i>
-//     </span>`
-
-//   let p = document.createElement('p')
-//   p.innerHTML = myspan
-//   document.getElementsByClassName('page-edit')[0].appendChild(p)
-// }
-
 function valine() {
   const Valine = require('valine')
   const leancloudStorage = require('leancloud-storage')

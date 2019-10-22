@@ -26,7 +26,7 @@ module.exports = {
 
       '/way/': [
         '001阿里OSS+picGO的使用',
-        '002vuepress+评论的搭建',
+        '002Vuepress+Valine搭建有评论的博客',
         '003函数防抖和节流',
       ],
 
