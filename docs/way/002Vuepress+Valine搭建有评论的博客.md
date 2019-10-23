@@ -49,10 +49,10 @@ footer: MIT Licensed | Copyright © 2018-present Evan You
 }
 
 // 本地运行
-npm run docs:dev
+npm run dev
 
 // 编译
-npm run docs:build
+npm run build
 ```
 
 ## 2，VuePress 基础配置
