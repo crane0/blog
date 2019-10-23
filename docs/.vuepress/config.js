@@ -13,6 +13,7 @@ module.exports = {
       { text: '前端', link: '/front/' },
       { text: '数据库', link: '/database/' },
       { text: '方法', link: '/way/' },
+      { text: '随笔', link: '/essay/index.md' },
       { text: 'GitHub', link: 'https://github.com/crane0/blog' }
     ],
     sidebar: {
