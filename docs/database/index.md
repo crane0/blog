@@ -1,1 +1,1 @@
-> 为以后成为全栈做准备。如果对您有帮助，希望 [Star](https://github.com/crane0/blog)支持一下~
+> 为以后成为全栈做准备。如果对您有帮助，希望 :star2:[Star](https://github.com/crane0/blog)支持一下~

@@ -5,10 +5,10 @@
   "main": "index.js",
   "homepage": "https://crane0.github.io/blog",
   "scripts": {
-    "dev": "vuepress dev docs",
+    "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy:gh": "gh-pages -d /docs/.vuepress/dist",
-    "deploy": "npm run build && npm run deploy:gh"
+    "d": "npm run build && npm run deploy:gh"
   },
   "keywords": [],
   "author": "",
