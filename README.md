@@ -1,1 +1,1 @@
-这是我的 [博客](https://crane0.github.io/vuepress-project/)
+这是我的 [博客](https://crane0.github.io/blog/)
