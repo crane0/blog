@@ -27,6 +27,7 @@ module.exports = {
       '/front/vue/': [
         '001组件属性修改',
         '002$emit',
+        '003slot',
       ],
       '/front/react/': [
         '001$emit',
