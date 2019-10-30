@@ -25,7 +25,8 @@ module.exports = {
     ],
     sidebar: {
       '/front/vue/': [
-        '001$emit',
+        '001组件属性修改',
+        '002$emit',
       ],
       '/front/react/': [
         '001$emit',
