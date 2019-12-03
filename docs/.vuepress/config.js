@@ -19,6 +19,7 @@ module.exports = {
         ]
       },
       { text: '数据库', link: '/database/' },
+      { text: 'GIT', link: '/git/index.md' },
       { text: '方法', link: '/way/' },
       { text: '随笔', link: '/essay/index.md' },
       { text: 'GitHub', link: 'https://github.com/crane0/blog' }
@@ -36,6 +37,10 @@ module.exports = {
 
       '/database/': [
         'mysql',
+      ],
+
+      '/git/': [
+        '01git基础',
       ],
 
       '/way/': [
