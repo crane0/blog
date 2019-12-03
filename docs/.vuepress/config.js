@@ -41,6 +41,7 @@ module.exports = {
 
       '/git/': [
         '01git基础',
+        '02查看log',
       ],
 
       '/way/': [
