@@ -8,8 +8,7 @@
     "start": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy:gh": "gh-pages -d /docs/.vuepress/dist",
-    "cp": "cp README.md ./docs/.vuepress/dist",
-    "d": "npm run build && cp && npm run deploy:gh"
+    "d": "npm run build && npm run deploy:gh"
   },
   "keywords": [],
   "author": "",
