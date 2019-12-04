@@ -3,12 +3,12 @@
 ## 1，git 初始化
 
 会在当前目录下，新建和项目名相同的文件夹。
-```
+``` js
 git init demo_project
 ```
 
 如果项目已经有了，那就在项目文件夹的根目录下执行
-```
+``` js
 git init
 ```
 
@@ -18,7 +18,7 @@ git init
 ## 2，git 最小配置
 
 配置本地的 `user.name` 和 `user.email`
-```
+``` js
 git config --global user.name crane0
 git config --global user.email bhad5683126@163.com
 ```
@@ -26,7 +26,7 @@ git config --global user.email bhad5683126@163.com
 ### 2.1，查看全局配置，
 
 因为还有 local 和 system 配置，所以不加 `--global`，则表示查看所有配置。
-```
+``` js
 git config --global --list
 
 // 只查看某个配置
@@ -54,8 +54,8 @@ git config --global user.name
 
 > 还写成 git commit -a -m，但不能写成 git commit -m -a
 
-```
-git commit -am"xx"
+``` js
+git commit -am"commit message"
 ```
 
 ### 3.1，git add -u 和 . 的区别
