@@ -1,39 +1,39 @@
 # 02，查看 log 相关
 
-## 1.1，简单查看
+## 1，简单查看
 
 ``` js
 git log
 ```
 
-## 1.2，只查看 commit 的 message
+## 2，只查看 commit 的 message
 
 ``` js
 git log --oneline
 ```
 ![image](https://crane0.oss-cn-beijing.aliyuncs.com/blogMarkdown/gitlog-1.png)
 
-## 1.3，查看最近的几次
+## 3，查看最近的几次
 
 ``` js
 // n 可以省略
 git log -nx
 ```
 
-## 1.4，树状展示
+## 4，树状展示
 
 ``` js
 git log --graph
 ```
 ![image](https://crane0.oss-cn-beijing.aliyuncs.com/blogMarkdown/gitlog-2.png)
 
-## 1.5，查看所有分支的所有 log
+## 5，查看所有分支的所有 log
 
 ``` js
 git log --all
 ```
 
-## 1.6，查看其他分支 log
+## 6，查看其他分支 log
 
 ``` js
 git log 其他分支名
@@ -52,7 +52,8 @@ git log --all [other_branch_name]
 git log --oneline --all -n2 --graph
 ```
 
-## 1.7，图形化页面
+## 7，图形化页面
+
 ``` js
 gitk
 ```
