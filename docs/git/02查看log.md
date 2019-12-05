@@ -36,7 +36,7 @@ git log --all
 ## 6，查看其他分支 log
 
 ``` js
-git log 其他分支名
+git log [other_branch_name]
 
 // 如果加了 --all ，[other_branch_name] 就无效了。
 git log --all [other_branch_name]
