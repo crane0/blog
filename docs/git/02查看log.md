@@ -2,40 +2,40 @@
 
 ## 1，简单查看
 
-``` js
+``` bash
 git log
 ```
 
 ## 2，只查看 commit 的 message
 
-``` js
+``` bash
 git log --oneline
 ```
 ![image](https://crane0.oss-cn-beijing.aliyuncs.com/blogMarkdown/gitlog-1.png)
 
 ## 3，查看最近的几次
 
-``` js
+``` bash
 // n 可以省略
 git log -nx
 ```
 
 ## 4，树状展示
 
-``` js
+``` bash
 git log --graph
 ```
 ![image](https://crane0.oss-cn-beijing.aliyuncs.com/blogMarkdown/gitlog-2.png)
 
 ## 5，查看所有分支的所有 log
 
-``` js
+``` bash
 git log --all
 ```
 
 ## 6，查看其他分支 log
 
-``` js
+``` bash
 git log [other_branch_name]
 
 // 如果加了 --all ，[other_branch_name] 就无效了。
@@ -48,13 +48,13 @@ git log --all [other_branch_name]
 
 注意下面的命令中，`-n2`是所有分支的取前 2个，不是每个分支各取 2个。
 
-``` js
+``` bash
 git log --oneline --all -n2 --graph
 ```
 
 ## 7，图形化页面
 
-``` js
+``` bash
 gitk
 ```
 会打开一个图形化页面。
