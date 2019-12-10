@@ -46,6 +46,7 @@ module.exports = {
         '04.git文件',
         '05分离头指针',
         '06tree和blob',
+        '07常用命令',
       ],
 
       '/way/': [
